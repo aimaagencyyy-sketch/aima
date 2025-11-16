@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <title>AIMA – Micro-agenzia digitale per locali e piccole attività</title>
+  <title>AIMA – Presenza digitale semplice per piccoli business</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -25,173 +25,123 @@
       </nav>
     </header>
 
-    <!-- HERO PRINCIPALE -->
-    <section class="hero-main">
-      <div class="hero-main-inner">
-
-        <!-- LEFT -->
-        <div class="hero-main-left">
-          <div class="hero-kicker">Micro-agenzia digitale per piccoli business</div>
-
-          <h1 class="hero-title">
-            La tua attività merita una presenza digitale chiara.<br>
-            Io la preparo per te in pochi giorni.
-          </h1>
-
-          <p class="hero-sub">
-            AIMA crea contenuti, testi, una pagina web professionale e semplici automazioni
-            per bar, ristoranti e piccole attività. Nessuna complicazione: ti consegno tutto pronto.
-          </p>
-
-          <ul class="hero-bullets">
-            <li>
-              <span class="hero-bullet-dot">✓</span>
-              <span>Una pagina web che spiega subito cosa offri e come contattarti</span>
-            </li>
-            <li>
-              <span class="hero-bullet-dot">✓</span>
-              <span>Contenuti e testi personalizzati per il tuo settore</span>
-            </li>
-            <li>
-              <span class="hero-bullet-dot">✓</span>
-              <span>Messaggi e automazioni che riducono le domande ripetitive</span>
-            </li>
-            <li>
-              <span class="hero-bullet-dot">✓</span>
-              <span>Consegna veloce: 2–5 giorni</span>
-            </li>
-          </ul>
-
-          <div class="hero-cta-row">
-            <button class="btn btn-primary" onclick="location.href='contatti.html'">
-              Richiedi la tua proposta gratuita
-            </button>
-            <button class="btn btn-secondary" onclick="location.href='prezzi.html'">
-              Guarda i pacchetti
-            </button>
-          </div>
-
-          <p class="hero-note">
-            Creato da <strong>Giovanni Alessio Rubulotta</strong>, 18 anni, con esperienza nella ristorazione.
-            Conosco bene le esigenze di chi lavora in sala e non ha tempo per il marketing.
-          </p>
-        </div>
-
-        <!-- RIGHT PANEL -->
-        <aside class="hero-main-right">
-          <div class="panel-title">Richiedi una bozza gratuita</div>
-          <div class="panel-sub">
-            Ti preparo una piccola anteprima del tuo sito o dei tuoi contenuti. Compila il form per iniziare.
-          </div>
-
-          <form action="#" method="post">
-            <div class="form-group">
-              <label for="nome">Nome e cognome</label>
-              <input type="text" id="nome" name="nome" placeholder="Es. Marco Rossi" />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email di contatto</label>
-              <input type="email" id="email" name="email" placeholder="nome@azienda.it" />
-            </div>
-
-            <div class="form-group">
-              <label for="tipo">Tipo di attività</label>
-              <select id="tipo" name="tipo">
-                <option value="">Seleziona...</option>
-                <option value="ristorante">Ristorante / Bar</option>
-                <option value="salone">Salone / Centro estetico</option>
-                <option value="freelance">Freelance / Studio professionale</option>
-                <option value="ecommerce">Ecommerce / Creator</option>
-                <option value="altro">Altro</option>
-              </select>
-            </div>
-
-            <button type="submit" class="btn btn-primary panel-btn">
-              Richiedi una bozza gratuita
-            </button>
-          </form>
-
-          <div class="panel-footnote">
-            Nessun impegno: ricevi una semplice anteprima via email.
-          </div>
-        </aside>
-
-      </div>
-    </section>
-
-    <!-- LOGHI TARGET -->
-    <section class="logos">
-      <span>Progettato per chi lavora davvero sul campo:</span>
-      <span class="logo-pill">Bar e ristoranti</span>
-      <span class="logo-pill">Servizi alla persona</span>
-      <span class="logo-pill">Freelance & creator</span>
-    </section>
-
-    <!-- SERVIZI PRINCIPALI -->
+    <!-- HERO MINIMAL -->
     <section class="section">
-      <div class="section-header">
-        <h2 class="section-title">Cosa ottieni con AIMA</h2>
-        <p class="section-sub">
-          Un servizio pensato per chi ha poco tempo e vuole risultati chiari: contenuti,
-          una pagina web seria e alcune automazioni per gestire meglio i clienti.
+      <div class="section-header" style="text-align:center; max-width:720px; margin:32px auto 0;">
+        <h1 class="section-title" style="font-size:32px; line-height:1.15; margin-bottom:10px;">
+          Una presenza digitale chiara, senza complicazioni.
+        </h1>
+        <p class="section-sub" style="margin:0 auto 18px;">
+          AIMA è una micro-agenzia digitale che prepara per te il minimo indispensabile:
+          una pagina web pulita, testi chiari e contenuti semplici da usare per bar,
+          ristoranti e piccole attività.
         </p>
       </div>
 
-      <div class="cards-3">
+      <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-top:12px;">
+        <button class="btn btn-primary" onclick="location.href='contatti.html'">
+          Richiedi una proposta
+        </button>
+        <button class="btn btn-ghost" onclick="location.href='prezzi.html'">
+          Guarda i pacchetti
+        </button>
+      </div>
 
+      <p style="text-align:center; font-size:12px; color:#6b7280; margin-top:10px;">
+        Creato da <strong>Giovanni Alessio Rubulotta</strong>, 18 anni, con esperienza nella ristorazione.
+      </p>
+    </section>
+
+    <!-- SEZIONE: COSA FA AIMA (3 CARD) -->
+    <section class="section">
+      <div class="section-header" style="text-align:center;">
+        <h2 class="section-title">Cosa faccio per la tua attività</h2>
+        <p class="section-sub" style="margin:0 auto;">
+          Pochi elementi, ma fatti bene. Niente progetti infiniti, niente paroloni.
+          Solo strumenti essenziali per farti trovare preparato online.
+        </p>
+      </div>
+
+      <div class="cards-3" style="margin-top:18px;">
         <div class="card">
           <div class="card-label">Contenuti</div>
-          <div class="card-title">Content Engine</div>
+          <div class="card-title">Testi e idee pronte</div>
           <p class="card-text">
-            Pacchetti social pronti: testi, idee e spunti personalizzati sul tuo settore.
+            Testi per post, storie e pagine che spiegano in modo semplice chi sei
+            e cosa offri, senza tono “agenzia”.
           </p>
-          <ul class="list-dots">
-            <li>Testi già pronti per i post</li>
-            <li>Script per storie e video</li>
-            <li>Idee contenuto mensili</li>
-          </ul>
         </div>
 
         <div class="card">
           <div class="card-label">Sito</div>
-          <div class="card-title">Website Express</div>
+          <div class="card-title">Pagina web essenziale</div>
           <p class="card-text">
-            Una landing semplice e professionale per presentare la tua attività.
+            Una singola pagina chiara con orari, servizi, contatti e invito all’azione.
+            Niente fronzoli, niente menu complicati.
           </p>
-          <ul class="list-dots">
-            <li>Pagina chiara e moderna</li>
-            <li>Testi già scritti su misura</li>
-            <li>Consegna in 2–5 giorni</li>
-          </ul>
         </div>
 
         <div class="card">
           <div class="card-label">Automazioni</div>
-          <div class="card-title">Local Automation Kit</div>
+          <div class="card-title">Messaggi e flussi base</div>
           <p class="card-text">
-            Messaggi, flussi e risposte automatiche per risparmiare tempo.
+            Risposte pronte e piccoli flussi per richieste e prenotazioni,
+            così risparmi tempo su domande ripetitive.
           </p>
-          <ul class="list-dots">
-            <li>FAQ pronte</li>
-            <li>Flussi base di contatto</li>
-            <li>Gestione clienti semplificata</li>
-          </ul>
         </div>
-
       </div>
     </section>
 
-    <!-- CTA FINALE -->
+    <!-- SEZIONE: COME FUNZIONA (STEP COMPATTI) -->
+    <section class="section">
+      <div class="section-header" style="text-align:center;">
+        <h2 class="section-title">Come funziona, in pratica</h2>
+        <p class="section-sub" style="margin:0 auto;">
+          Pochi passaggi, sempre uguali. L’obiettivo è farti perdere meno tempo possibile.
+        </p>
+      </div>
+
+      <div class="steps">
+        <div class="step-card">
+          <div class="step-number">Step 1</div>
+          <div class="step-title">Scegli il pacchetto</div>
+          <p>
+            Dalla pagina <strong>Prezzi</strong> scegli se ti serve più contenuto,
+            sito, automazioni o una combinazione.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">Step 2</div>
+          <div class="step-title">Compili un breve form</div>
+          <p>
+            Ti faccio poche domande su attività, tono di voce e informazioni essenziali.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">Step 3</div>
+          <div class="step-title">Ricevi materiali pronti</div>
+          <p>
+            In pochi giorni ti consegno testi, struttura e indicazioni pronte da usare
+            nei tuoi canali.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINALE MINIMAL -->
     <section class="section">
       <div class="cta-final">
         <div class="cta-final-text">
-          <strong>Vuoi una proposta per la tua attività?</strong><br>
-          Ti preparo una bozza gratuita prima ancora di acquistare.
+          <strong>Vuoi capire se AIMA ha senso per la tua attività?</strong><br>
+          Scrivimi due righe su chi sei e cosa fai: ti rispondo con una proposta
+          semplice e senza impegno.
         </div>
 
-        <button class="btn btn-primary"
-          onclick="location.href='contatti.html'">Richiedi una bozza gratuita</button>
+        <button class="btn btn-primary" onclick="location.href='contatti.html'">
+          Scrivimi
+        </button>
       </div>
     </section>
 
